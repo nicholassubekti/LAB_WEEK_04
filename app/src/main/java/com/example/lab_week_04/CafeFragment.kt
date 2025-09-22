@@ -32,7 +32,7 @@ class CafeFragment : Fragment() {
         val contents = listOf(
             getString(R.string.starbucks_desc),
             getString(R.string.janjijiwa_desc),
-            getString(R.string.kopikenangan_des)
+            getString(R.string.kopikenangan_desc)
         )
 
         val adapter = CafeAdapter(childFragmentManager, lifecycle, contents)
