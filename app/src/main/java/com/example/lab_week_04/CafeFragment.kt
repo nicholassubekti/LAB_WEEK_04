@@ -30,9 +30,9 @@ class CafeFragment : Fragment() {
         val tabLayout = view.findViewById<TabLayout>(R.id.tab_layout)
 
         val contents = listOf(
-            getString(R.string.hello_blank_fragment),
-            getString(R.string.hello_blank_fragment),
-            getString(R.string.hello_blank_fragment)
+            getString(R.string.starbucks_desc),
+            getString(R.string.janjijiwa_desc),
+            getString(R.string.kopikenangan_des)
         )
 
         val adapter = CafeAdapter(childFragmentManager, lifecycle, contents)
